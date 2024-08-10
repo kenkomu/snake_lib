@@ -1,0 +1,1 @@
+/home/komu/Rust/lets-code/snake/target/wasm32-unknown-unknown/release/libsnake.rlib: /home/komu/Rust/lets-code/snake/src/lib.rs /home/komu/Rust/lets-code/snake/src/random.rs /home/komu/Rust/lets-code/snake/src/snake.rs
