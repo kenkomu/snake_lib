@@ -1,0 +1,1 @@
+/home/komu/Rust/lets-code/snake/target/package/snake-0.1.0/target/debug/libsnake.so: /home/komu/Rust/lets-code/snake/target/package/snake-0.1.0/src/lib.rs /home/komu/Rust/lets-code/snake/target/package/snake-0.1.0/src/random.rs /home/komu/Rust/lets-code/snake/target/package/snake-0.1.0/src/snake.rs

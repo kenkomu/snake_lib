@@ -2,12 +2,11 @@ mod random;
 mod snake;
 
 use js_sys::Function;
-use snake::{Direction, SnakeGame};
+pub use snake::{Direction, SnakeGame};
 use std::{cell::RefCell, rc::Rc};
 use wasm_bindgen::{prelude::*, JsCast, UnwrapThrowExt};
 use web_sys::{window, HtmlDivElement, HtmlElement, KeyboardEvent};
 
-pub use snake::{Direction, SnakeGame}; 
 
 thread_local! {
   static GAME: Rc<RefCell<SnakeGame>> =
