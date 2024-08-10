@@ -1,5 +1,5 @@
 [package]
-name = "snake"
+name = "simple_snake_game"
 version = "0.1.0"
 edition = "2021"
 description = "A simple Snake game implemented in Rust and WebAssembly"
