@@ -3,6 +3,7 @@ use std::collections::VecDeque;
 
 pub type Position = (usize, usize);
 
+/// Represents the direction in which the snake can move.
 #[derive(Debug, Clone, Copy)]
 pub enum Direction {
   Up,
@@ -11,6 +12,7 @@ pub enum Direction {
   Left,
 }
 
+/// The main struct representing the Snake game.
 #[derive(Debug)]
 pub struct SnakeGame {
   pub width: usize,
@@ -20,10 +22,11 @@ pub struct SnakeGame {
   next_direction: Direction,
   pub food: Position,
   pub finished: bool,
-  pub points: usize, // Add this line to track points
+  pub points: usize, //track points
 }
 
 impl SnakeGame {
+      /// Creates a new Snake game with the given width and height.
   pub fn new(width: usize, height: usize) -> Self {
       Self {
           width,
@@ -37,7 +40,7 @@ impl SnakeGame {
       }
   }
 
-
+    /// Changes the direction of the snake.
   pub fn change_direction(&mut self, direction: Direction) {
     if self.finished {
       return;
@@ -60,6 +63,7 @@ impl SnakeGame {
     x < self.width && y < self.height
   }
 
+      /// Advances the game state by one tick.
   pub fn tick(&mut self) {
     if self.finished && self.snake.len() == 0 {
         return;
