@@ -1,6 +1,6 @@
 # Snake
 
-[<img src="./thumbnail.png" alt="Thumbnail" width="300" />][video]<br/> 
+<img src="./thumbnail.png" alt="Thumbnail" width="300" /><br/> 
 
 ## Building
 
