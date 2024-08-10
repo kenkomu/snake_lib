@@ -1,0 +1,12 @@
+# Ignore the pkg directory
+/pkg
+
+# Ignore the target directory
+/target
+
+# Ignore Rust/Cargo specific files
+Cargo.lock
+
+
+# Ignore WebAssembly output
+*.wasm
