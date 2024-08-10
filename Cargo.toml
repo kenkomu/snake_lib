@@ -19,3 +19,16 @@ features = [
   "Document", "Element", "HtmlElement", "Window", "console",
   "CssStyleDeclaration", "HtmlDivElement", "KeyboardEvent"
 ]
+
+
+# Exclude unnecessary files from the crate
+exclude = [
+    "/pkg/*",
+    "/target/*",
+    "*.rs.bk",
+    "*.log",
+    "*.wasm",
+    "node_modules",
+    ".DS_Store",
+    "*~",
+]
