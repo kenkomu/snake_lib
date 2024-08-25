@@ -6,7 +6,8 @@ Here is the a reusable library that you can incorporate into your projects.
 [Link](https://crates.io/crates/simple_snake_game)
 
 
-<img src="./thumbnail.png" alt="Thumbnail" width="300" /><br/> 
+<!-- <img src="./home/komu/Pictures/Screenshots/Screenshot from 2024-08-25 18-18-36.png
+" alt="Thumbnail" width="300" /><br/>  -->
 
 ## Building
 
