@@ -1,4 +1,10 @@
-# Snake
+# 
+# Simple_Snake_Game
+A simple Snake game implemented in Rust and WebAssembly.
+
+Here is the a reusable library that you can incorporate into your projects.
+[Link](https://crates.io/crates/simple_snake_game)
+
 
 <img src="./thumbnail.png" alt="Thumbnail" width="300" /><br/> 
 
@@ -24,3 +30,4 @@ Now, start your static file server and open `index.html`:
 $ serve
 ```
 # snake_lib
+Snake game reusable library that you can incorporate into your projects.
